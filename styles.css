@@ -1,0 +1,98 @@
+body{
+    font-family: fantasy; 
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181818 !important;
+    color: aliceblue !important;
+}
+
+h1 {
+    font-weight: bold !important;
+}
+
+.firstRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+#screen{
+    width: 82%;
+    height: 80px;
+    border: 3px solid #fff;
+    margin: 6px;
+    margin-right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 2%;
+    font-weight: bold !important;
+}
+
+.btn{
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    font-size: 30px;
+    color: aliceblue !important;
+    background-color: #181818 !important ;
+}
+
+.number {
+    border: 3px solid gold !important; 
+    border-radius: 0px !important;
+}
+
+.number:hover {
+    background-color: gold !important;
+}
+
+.operator {
+    border: 3px solid plum !important; 
+    border-radius: 0px !important;
+}
+
+.operator:hover {
+    background-color: plum !important;
+}
+
+.decimal {
+    border: 3px solid steelblue !important; 
+    border-radius: 0px !important;
+}
+
+.decimal:hover {
+    background-color: steelblue !important;
+}
+
+.equal {
+    border: 3px solid steelblue !important; 
+    border-radius: 0px !important;
+}
+
+.equal:hover {
+    background-color: steelblue !important;
+}
+
+.clear {
+    border: 3px solid plum !important; 
+    border-radius: 0px !important;
+}
+
+.clear:hover {
+    background-color: plum !important;
+}
+
+.previous{
+    font-size: 30px;
+}
+
+.current{
+    font-size: 42px;
+}
